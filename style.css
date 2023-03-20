@@ -10,7 +10,7 @@ body {
 
 section {
     display: inline-block;
-    padding: 0 315px;
+    padding: 0 200px;
     height: 100%;
 }
 
@@ -105,10 +105,45 @@ a.top-button:hover{
     background-image: url(assets/images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 700px;
 }
 
-.my-latest-work-info h3 {
+.my-latest-work-banner h2, .footer-banner h2 {
     text-align: center;
     font-size: 50px;
     font-weight: 500;
+}
+
+.my-latest-work-info {
+
+}
+
+.my-latest-work-info img {
+    display: inline-block;
+    width: 30%;
+    margin: 0%;
+    padding: 1%;
+}
+
+.footer-banner {
+    background-image: url(assets/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 80%;
+    height: 1200px;
+}
+
+.footer-banner-middle {
+    padding: 38px 0;
+}
+.footer-banner-middle h3 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+.footer-banner-middle p{
+    font-size: 20px;
+    font-weight: 400;
+    color: dimgray;
 }
