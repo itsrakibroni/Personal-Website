@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* FONTS CSS END */
+
+body {
+    margin: 0;
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+section {
+    display: inline-block;
+    padding: 0 315px;
+    height: 100%;
+}
+
+.top-banner {
+    background-image: url(assets/images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 880px;
+}
+
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+.top-highlight{
+    color: #EC4C7A;
+    font-size: 70px;
+}
+
+.top-banner-info {
+    width: 50%;
+    float: left;
+    margin-top: 200px;
+}
+
+.top-banner-info p {
+    color: dimgray;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.top-banner-img {
+    width: 42%;
+    float: left;
+    text-align: right;
+    margin-top: 150px;
+}
+
+.top-banner-img img{
+    width: 90%;
+}
+
+a.top-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 50px;
+    background-image: linear-gradient(110deg, #99114e, #ff043f);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    margin: 40px 0 0 0;
+    transition: 0.5s;
+}
+
+a.top-button:hover{
+    background-image: linear-gradient(110deg, #ff043f, #99114e);
+}
+
+.biography-banner{
+    background-image: url(assets/images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+.biography-img {
+    width: 42%;
+    float: left;
+    text-align: left;
+    margin-top: 150px;
+}
+.biography-img img {
+    width: 90%;
+}
+
+.biography-info{
+    width: 50%;
+    float: left;
+    margin-top: 200px;
+}
+.biography-info h2 {
+    font-size: 50px;
+    margin: 0;
+}
+.biography-info p{
+    color: dimgray;
+    font-size: 18px;
+    font-weight: 400;
+}
+.biography-info a{}
+
+.my-latest-work-banner{
+    background-image: url(assets/images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-latest-work-info h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
